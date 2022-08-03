@@ -1,6 +1,7 @@
 :root {
     --primary-color: #0a1128;
     --secondary-color: #f5f5f5;
+    --tertiary-color: #eeeeee;
     --gap: 3rem;
 }
 
@@ -47,6 +48,9 @@ h5 {
 h6 {
     font-size: 3.5rem;
 }
+a {
+    text-decoration: none;
+}
 /*----------------- Nav ---------------------*/
 .menu {
     background-color: var(--secondary-color);
@@ -55,10 +59,20 @@ h6 {
     left: 0;
     right: 0;
     width: 100%;
+    border-bottom: 1px solid black;
 }
 .menu-content{
     display: flex;
     justify-content: space-between;
+    
+}
+.menu h1 a {
+    color: var(--primary-color)
+
+}
+.menu h1 {
+    font-size: 2.5rem;
+
     
 }
 .menu ul {
@@ -67,7 +81,25 @@ h6 {
 }
 .menu ul li a {
     display: block;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: var(--primary-color);
 }
+.menu ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background-color: crimson;
+    transition: all 300ms aese-in-out;; 
+}
+.menu ul li a:hover::after {
+    width: 50%;
+    left: 25%;
+}
+
 /*----------------- Fim Nav ---------------------*/
 .main-bg {
     background-image: url('../img/main.svg.svg');
@@ -79,12 +111,9 @@ h6 {
     max-width: 1200px;
     margin: 0 auto;
     padding: var(--gap)
+    
 }
-.main-bg {
-  
-    color: var(--secondary-color);
-}
-
-section {
+.section {
     min-height: 100vh;
 }
+
