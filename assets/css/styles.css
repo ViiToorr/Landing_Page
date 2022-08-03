@@ -15,6 +15,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
+    line-height: 1.5;
     
 }
 
@@ -43,6 +44,28 @@ h6 {
 a {
     text-decoration: none;
 }
+.main-bg {
+    background-image: url('../img/main.svg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--secondary-color);
+}
+.white-bg {
+    background-color: var(--secondary-color);
+}
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap)
+    
+}
+.section {
+    min-height: 100vh;
+}
+.menu-spacing {
+    height: 100px;
+}
+
 /*----------------- Nav ---------------------*/
 .menu {
     background-color: var(--secondary-color);
@@ -98,22 +121,29 @@ a {
 }
 
 /*----------------- Fim Nav ---------------------*/
-.main-bg {
-    background-image: url('../img/main.svg.svg');
-    background-size: cover;
-    background-position: center center;
-    color: var(--secondary-color);
+
+
+/*-----------------  Section 1 ------------------------*/
+.intro-content {
+    position: relative;
+    top: -8rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: var(--gap);
+    height: 100vh;
 }
-.white-bg {
-    background-color: var(--secondary-color);
+.intro-text-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
-.main-content {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: var(--gap)
-    
+.intro-text-content h2 {
+    font-size: 8.0rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    line-height: 1.2;
+   
 }
-.section {
-    min-height: 100vh;
-}
+
+/*----------------- Fim Section 1 ---------------------*/
 
