@@ -4,16 +4,9 @@
     --tertiary-color: #eeeeee;
     --gap: 3rem;
 }
-
-
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;*/
-
-
 * {
     margin: 0;
     padding: 0;
-
 }
 html {
     font-size: 62.5%;
@@ -28,7 +21,6 @@ body {
 h1, h2 ,h3 ,h4 ,h5 ,h6 {
     font-family: 'Montserrat', sans-serif;
 } 
-
 h1 {
     font-size: 6.5rem;
     text-transform: uppercase;
@@ -59,11 +51,14 @@ a {
     left: 0;
     right: 0;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 0.01rem solid var(--secondary-color);
 }
 .menu-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 0;
     
 }
 .menu h1 a {
@@ -72,6 +67,7 @@ a {
 }
 .menu h1 {
     font-size: 2.5rem;
+    color: var(--primary-color);
 
     
 }
@@ -84,6 +80,7 @@ a {
     padding: 1rem;
     font-size: 1.8rem;
     color: var(--primary-color);
+    position: relative;
 }
 .menu ul li a::after {
     content: "";
@@ -93,7 +90,7 @@ a {
     width: 0;
     height: 0.2rem;
     background-color: crimson;
-    transition: all 300ms aese-in-out;; 
+    transition: all 300ms ease-in-out;
 }
 .menu ul li a:hover::after {
     width: 50%;
@@ -107,8 +104,11 @@ a {
     background-position: center center;
     color: var(--secondary-color);
 }
+.white-bg {
+    background-color: var(--secondary-color);
+}
 .main-content {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: var(--gap)
     
