@@ -47,7 +47,28 @@ h5 {
 h6 {
     font-size: 3.5rem;
 }
-
+/*----------------- Nav ---------------------*/
+.menu {
+    background-color: var(--secondary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu ul li a {
+    display: block;
+}
+/*----------------- Fim Nav ---------------------*/
 .main-bg {
     background-image: url('../img/main.svg.svg');
     background-size: cover;
