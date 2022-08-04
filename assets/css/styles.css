@@ -179,4 +179,11 @@ p {
 
 /*----------------- Section 3 -------------------------*/
 
+.grid-one-content {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
 /*----------------- Fim Section 3 -------------------------*/
