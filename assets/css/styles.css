@@ -226,6 +226,22 @@ p {
 /*----------------- Fim Section 3 -------------------------*/
 
 /*-----------------  Section 4 -------------------------*/
+ .gallery-grid {
+    width: 100%;
+    max-width: 36rem;
+    max-height: 36rem;
+    overflow: hidden;
+ }
+    .gallery-grid img {
+       transition: all 400ms ease-in-out;
+    }
+    .gallery-grid img:hover {
+        transform: translate(-3%, -3%) scale(1.2) rotate(5deg);
+    }
+
+/*-----------------  Fim Section 4 -------------------------*/
+
+/*-----------------  Section 5 -------------------------*/
 
 
 /*----------------- Fim Section 5 -------------------------*/
