@@ -47,7 +47,9 @@ a {
     text-decoration: none;
 }
 p {
-    margin-bottom: 3.3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    
 }
 .main-bg {
     background-image: url('../img/main.svg.svg');
@@ -194,6 +196,7 @@ p {
 
 .grid-description {
     padding-bottom: 6rem;
+    text-align: start;
 }
 
 .grid {
