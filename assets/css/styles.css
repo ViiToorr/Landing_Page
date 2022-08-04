@@ -10,6 +10,7 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth; ;
 }
 /*-------------------------------*/
 body {
@@ -44,6 +45,9 @@ h6 {
 }
 a {
     text-decoration: none;
+}
+p {
+    margin-bottom: 3.3rem;
 }
 .main-bg {
     background-image: url('../img/main.svg.svg');
@@ -158,10 +162,21 @@ a {
 /*----------------- Section 2 -------------------------*/
 
 .intro-content2 {
+    max-width: 64rem;
     display: flex;
     height: 100vh;
     flex-flow: column wrap;
     justify-content: center;
 }
+.intro-content2 h2 {
+    font-size: 8.0rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    line-height: 1.2;
+}
 
 /*----------------- Fim Section 2 ---------------------*/
+
+/*----------------- Section 3 -------------------------*/
+
+/*----------------- Fim Section 3 -------------------------*/
