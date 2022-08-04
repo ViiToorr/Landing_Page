@@ -74,6 +74,7 @@ a {
     left: 0;
     right: 0;
     width: 100%;
+    z-index: 1;
     border-bottom: 0.01rem solid var(--secondary-color);
 }
 .menu-content{
@@ -132,7 +133,7 @@ a {
     grid-gap: var(--gap);
     height: 100vh;
 }
-.intro-text-content {
+.intro-text-content ,.intro-img  {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -143,6 +144,11 @@ a {
     margin-bottom: 5rem;
     line-height: 1.2;
    
+}
+.intro-img img {
+    max-width: 100%;
+    height: 
+    ;
 }
 
 /*----------------- Fim Section 1 ---------------------*/
