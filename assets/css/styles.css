@@ -47,7 +47,7 @@ a {
     text-decoration: none;
 }
 p {
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
     text-align: center;
     
 }
@@ -64,7 +64,7 @@ p {
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
-    padding: var(--gap)
+    padding: 8rem var(--gap)
     
 }
 .section {
@@ -139,7 +139,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     grid-gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
 }
 .intro-text-content ,.intro-img  {
     display: flex;
@@ -155,7 +155,7 @@ p {
 }
 .intro-img img {
     max-width: 100%;
-    height: auto;
+    min-height: auto;
 }
 
 /*----------------- Fim Section 1 ---------------------*/
@@ -167,7 +167,7 @@ p {
     max-width: 64rem;
     display: flex;
     height: 100vh;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
 }
 .intro-content2 h2 {
@@ -182,7 +182,7 @@ p {
 /*----------------- Section 3 -------------------------*/
 
 .grid-one-content {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -224,3 +224,8 @@ p {
 }
 
 /*----------------- Fim Section 3 -------------------------*/
+
+/*-----------------  Section 4 -------------------------*/
+
+
+/*----------------- Fim Section 5 -------------------------*/
