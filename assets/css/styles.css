@@ -135,7 +135,7 @@ p {
 /*-----------------  Section 1 ------------------------*/
 .intro-content {
     position: relative;
-    top: -8rem;
+    /* top: -8rem; */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     grid-gap: var(--gap);
@@ -242,6 +242,6 @@ p {
 /*-----------------  Fim Section 4 -------------------------*/
 
 /*-----------------  Section 5 -------------------------*/
+.contact-form 
 
-
-/*----------------- Fim Section 5 -------------------------*/
+/*----------------- Fim Section 5 -----------------------*/
