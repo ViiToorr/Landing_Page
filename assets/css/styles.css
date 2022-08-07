@@ -289,6 +289,9 @@ p {
     cursor: pointer;
     
 }
-button 
+.form-group button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
 
 /*----------------- Fim Section 5 -----------------------*/
