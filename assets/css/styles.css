@@ -288,6 +288,7 @@ p {
     font-size: 1.8rem;
     cursor: pointer;
     
+    
 }
 .form-group button:hover {
     background-color: var(--secondary-color);
