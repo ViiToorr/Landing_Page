@@ -11,6 +11,29 @@
     <title>Landing Page</title>
 </head>
 <body class="main-bg">
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Vitor Augusto</a>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+                
+
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+    <!-- ---------------------teste--------------------- -->
         <input class="close-menu" id="close-menu" aria-label="Close menu" type="checkbox" role="button">
         <label class="close-menu-label" for="close-menu" title="Close menu"></label>
     <aside class="menu white-bg">
@@ -178,6 +201,24 @@
     </div>
 </section>
 <!----------------------- Fim intro5 ---------------------------------->
+
+<script>
+    const hamburger= document.querySelector(`.hamburger`)
+    const navbar =document.querySelector(`.menu`)
+    hamburger/addEventListener("click",()=> 
+    {
+        hamburger.classList.toggle(`ativo`)
+        navbar.classList.toggle(`ativo`)
+    })
+</script>
+
+
+
+
+
+
+
+
 
     <footer id="footer" class=" footer white-bg">
         <p><a rel="nofollow" target="_blank" href="">Feito Por Vitor Augusto de mattos</a></p>
