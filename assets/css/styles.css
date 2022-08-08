@@ -373,7 +373,17 @@ p {
         padding: 0.5rem;
         cursor: pointer;
     }
+    ×
+    .close-menu:checked~.menu {
+        display: block;
+    }
+    .close-menu:checked~.close-menu-label {
+        display: none;
+    }
+
 } 
+
+
 
 /*----------------- Fim @Media -----------------------*/
 
