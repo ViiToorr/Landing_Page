@@ -370,36 +370,3 @@ p {
 
 
 
-@media (max-width:460px) {
-    .hamburger{
-        display: block;
-    }
-    .hamburger.ativo .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.ativo .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.ativo .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-    .menu {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        border-radius: 0px 0px 15px 15px;
-        background-color: rgb(6, 6, 80);
-        text-align: center;
-        flex-direction: column;
-        width: 100%;
-        transition: 0.5s;
-    }
-    .item {
-        margin: 16px 0px;
-
-    }
-    .menu.ativo {
-        left: 0;
-    }
-}
