@@ -306,8 +306,7 @@ p {
     text-align: center;
 }
 .footer p {
-    margin-bottom: 0;
-    padding: 1.5rem;
+    padding-top: 3rem;
     font-size: 1.7rem;
     color: var(--primary-color);
 }   
