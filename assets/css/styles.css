@@ -306,7 +306,8 @@ p {
     text-align: center;
 }
 .footer p {
-    font-size: 1.5rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
     color: var(--primary-color);
 }   
 .footer a {
