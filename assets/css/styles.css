@@ -335,7 +335,7 @@ p {
         grid-column: span 1;
     }
 }
-/* @media (max-width: 460px) {
+ @media (max-width: 460px) {
     .menu {
         bottom: 0;
         text-align: center;
@@ -358,13 +358,22 @@ p {
         left: 0;
     }
     .close-menu-label::after {
-        content: '';
+        content: '≡';
         position: fixed;
         z-index: 2;
-        top: 0;
-        right: 0;
+        top: 1.5rem;
+        right: 1.5rem;
+        background: var(--primary-color);
+        color: var(--secondary-color);
+        font-size: 4rem;
+        line-height: 4rem;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
     }
-} */
+} 
 
 /*----------------- Fim @Media -----------------------*/
 
