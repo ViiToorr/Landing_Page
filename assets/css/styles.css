@@ -129,6 +129,9 @@ p {
     width: 50%;
     left: 25%;
 }
+.close-menu {
+   display: none;
+}
 
 /*----------------- Fim Nav ---------------------*/
 
@@ -351,12 +354,7 @@ p {
     .menu {
         display: none;
     }
-    .close-menu {
-        position: fixed;
-        z-index: 2;
-        top: 0;
-        left: 0;
-    }
+  
     .close-menu-label::after {
         content: '≡';
         position: fixed;
@@ -373,12 +371,13 @@ p {
         padding: 0.5rem;
         cursor: pointer;
     }
-    ×
+    
     .close-menu:checked~.menu {
         display: block;
     }
-    .close-menu:checked~.close-menu-label {
-        display: none;
+    .close-menu:checked~.close-menu-label::after {
+        display: block;
+        content: '×';
     }
 
 } 
