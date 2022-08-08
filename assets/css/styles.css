@@ -305,6 +305,15 @@ p {
 .footer {
     text-align: center;
 }
+.footer p {
+    margin-bottom: 0;
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    color: var(--primary-color);
+}   
+.footer a {
+    color: var(--primary-color);
+}
 
 
 /*----------------- Fim Footer -----------------------*/
