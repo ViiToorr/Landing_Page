@@ -335,7 +335,19 @@ p {
         grid-column: span 1;
     }
 }
-
-
+@media (max-width: 460px) {
+    .menu {
+        bottom: 0;
+        text-align: center;
+    }
+    .menu-content,.menu-content ul {
+        flex-direction: column;
+        
+        justify-content: center;
+    }
+    .menu-content {
+        height: 100vh;
+    }
+}
 
 /*----------------- Fim @Media -----------------------*/
