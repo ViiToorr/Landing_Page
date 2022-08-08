@@ -256,6 +256,11 @@ p {
     flex-wrap: wrap;
     gap: var(--gap);
 }
+.form-grid legend {
+    font-size: 1.7rem;
+    font-style: italic;
+    color: var(--secondary-color);
+}
 .form-group {
    
     flex: 1 1 400px;
@@ -287,8 +292,7 @@ p {
     padding: 1.5rem 2rem;
     font-size: 1.8rem;
     cursor: pointer;
-    
-    
+   
 }
 .form-group button:hover {
     background-color: var(--secondary-color);
