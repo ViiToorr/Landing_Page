@@ -379,6 +379,9 @@ p {
         display: block;
         content: '×';
     }
+    .menu-spacing {
+        display: none;
+    }
 
 } 
 
