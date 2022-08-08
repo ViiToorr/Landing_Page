@@ -316,3 +316,26 @@ p {
 
 
 /*----------------- Fim Footer -----------------------*/
+
+/*----------------- @Media  -----------------------*/
+@media (max-width: 800px) {
+    .intro-content {
+        grid-template-columns: 1fr;
+    }
+    .intro-content2 {
+        grid-template-columns: 1fr;
+    }
+    .grid-one-content {
+        grid-template-columns: 1fr;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .contact-form {
+        grid-column: span 1;
+    }
+}
+
+
+
+/*----------------- Fim @Media -----------------------*/
