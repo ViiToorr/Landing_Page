@@ -348,6 +348,21 @@ p {
     .menu-content {
         height: 100vh;
     }
+    .menu {
+        display: none;
+    }
+    .close-menu {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+    .close-menu-label::after {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        right: 0;
+    }
 }
 
 /*----------------- Fim @Media -----------------------*/
