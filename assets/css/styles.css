@@ -316,7 +316,14 @@ p {
 .footer a {
     color: var(--primary-color);
 }
-
+.back-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--secondary-color);
+    width: 5rem;
+    height: 5rem;
+}
 
 /*----------------- Fim Footer -----------------------*/
 

@@ -16,11 +16,11 @@
         <label class="close-menu-label" for="close-menu" title="Close menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1>
+            <h1 onclick="getElementById(`close-menu`).checked = false;">
                 <a href="#intro">Vitor</a>
             </h1>
         <nav>
-            <ul>
+            <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">Home</a></li>
                     <li><a href="#intro2">Sobre</a></li>
                     <li><a href="#intro3">Contato</a></li>
@@ -185,7 +185,7 @@
         <p><a rel="nofollow" target="_blank" href="">Feito Por Vitor Augusto de mattos</a></p>
     </footer>
 <!----------------------  FIm Footer --------------------------------->
-    <script src="assets/js/page.js"></script>
+    <a class="back-top" href="#intro"></a>
 
 </body>
 </html>
