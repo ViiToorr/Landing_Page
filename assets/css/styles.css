@@ -151,6 +151,12 @@ p {
     flex-flow: column wrap;
     justify-content: center;
 }
+.intro-text-content h6 {
+    content: "|";
+    animation: pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
 .intro-text-content h2 {
     font-size: 8.0rem;
     text-transform: uppercase;
