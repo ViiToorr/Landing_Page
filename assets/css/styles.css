@@ -151,11 +151,11 @@ p {
     flex-flow: column wrap;
     justify-content: center;
 }
-.intro-text-content h6 {
+/* .intro-text-content h6 {
 
-}
+} */
 
-.intro-text-content h5::after {
+/* .intro-text-content h5::after {
     content: "|";
     animation: pisca;
     animation-duration: 1s;
@@ -168,7 +168,7 @@ p {
 50% {
     opacity: 0;
 }
-}
+} */
 
 .intro-text-content h2 {
     font-size: 8.0rem;
