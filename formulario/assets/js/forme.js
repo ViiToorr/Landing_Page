@@ -16,6 +16,11 @@
         e.preventDefault();
         const camposValidos = this.checkInputs();
         const senhaValidas = this.validaSenha();
+
+        if(camposValidos && senhaValidas) {
+            
+            this.formulario.submit();
+        }
     }
 
     validaSenha() {
