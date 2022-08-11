@@ -42,11 +42,3 @@ class ValidaCpf {
         }
     
 }
-let  validaCpf = new ValidaCpf(`070.987.720-03`);
-// let validaCpf = new ValidaCpf(`111.111.111-11`);
-
-if (validaCpf.valida()) {
-    console.log(`CPF Válido`);
-} else {
-    console.log(`CPF Inválido`);
-}

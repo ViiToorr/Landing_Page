@@ -26,18 +26,27 @@
         
         for(let campo of this.formulario.querySelectorAll(`.validar`)){
             const label = campo.previousElementSibling.innerText; // elemento irmao anterior
+            
             if (!campo.value) {
                 this.criarErro(campo,`Campo "${label}" tal não pode estar em branco`);
                 valid = false;
             }
 
-            if (campo.classList.contains('cpf')) {
+                if (campo.classList.contains('cpf')) {
                 if(!this.validaCPF(campo)) valid = false;
-        
+                }
         }
     }
 
-    
+        validaCPF(campo) {
+        const cpf = new ValidaCpf(campo.value);
+
+        if(!cpf.valida()) {
+            this.criarErro(campo, 'CPF Inválido');
+            return false;
+        }
+        return true;
+        }
 
 
     criarErro(campo, mensagem) { 
@@ -47,8 +56,9 @@
         campo.insertAdjacentElement('afterend', divErro);
     }
 
-    
-}
-    
+     
 
+    
+ 
+}
    const validar = new ValidarFormulario();
