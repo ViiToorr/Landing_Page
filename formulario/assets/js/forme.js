@@ -45,10 +45,17 @@
         validaUsuario(campo) {
             const usuario = campo.value;
             let valid = true;
+           
             if (usuario.length <3 || usuario.length >12) {
                 this.criarErro(campo, 'Usuário deve ter entre 3 e 12 caracteres');
                 valid = false;
             }
+
+            if (!usuario.match(/^[a-zA-z0-9]+$/g)) {
+                this.criarErro(campo, ' Numero usuário precisa conter apenas letras e números');
+                valid = false;
+            }
+
             return valid;
         }
 
