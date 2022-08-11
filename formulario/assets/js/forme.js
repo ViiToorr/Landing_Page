@@ -19,9 +19,13 @@
 
     checkInputs() {
         let valid = true;
+
+        for(let errorText of this.formulario.querySelectorAll('.error')) {
+            errorText.remove();
+        } // Faz com que nao carregue mais de uma vez o erro
         
         for(let campo of this.formulario.querySelectorAll(`.validar`)){
-            const label = campo.previousElementSibling.innerHTML // elemento irmao anterior
+            const label = campo.previousElementSibling.innerText; // elemento irmao anterior
             if (!campo.value) {
                 this.criarErro(campo,`Campo "${label}" tal não pode estar em branco`);
                 valid = false;

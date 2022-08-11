@@ -32,9 +32,9 @@
     border-radius: 10px;
   }
 
-  .error-text {
+  .error {
     color: red;
-    font-size: 1.2em;
+    font-size: 16px;
     
   }
 
