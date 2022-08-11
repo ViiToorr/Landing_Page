@@ -19,10 +19,12 @@
 
     checkInputs() {
         let valid = true;
-
+        
         for(let campo of this.formulario.querySelectorAll(`.validar`)){
+            const label = campo.previousElementSibling.innerHTML // elemento irmao anterior
             if (!campo.value) {
-                this.criarErro(campo,`Campo tal não pode estar em branco`);
+                this.criarErro(campo,`Campo "${label}" tal não pode estar em branco`);
+                valid = false;
             }
         
         }

@@ -32,6 +32,12 @@
     border-radius: 10px;
   }
 
+  .error-text {
+    color: red;
+    font-size: 1.2em;
+    
+  }
+
   
 
 
