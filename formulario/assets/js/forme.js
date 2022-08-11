@@ -18,13 +18,14 @@
         const senhaValidas = this.validaSenha();
 
         if(camposValidos && senhaValidas) {
-            
+            alert('Formulário enviado.');
             this.formulario.submit();
         }
     }
 
     validaSenha() {
         let = valid = true;
+        
         const senha = this.formulario.querySelector('.senha');
         const repetirSenha = this.formulario.querySelector('.repetir-senha');
 
