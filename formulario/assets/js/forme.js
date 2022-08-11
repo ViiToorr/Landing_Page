@@ -30,9 +30,15 @@
                 this.criarErro(campo,`Campo "${label}" tal não pode estar em branco`);
                 valid = false;
             }
+
+            if (campo.classList.contains('cpf')) {
+                if(!this.validaCPF(campo)) valid = false;
         
         }
     }
+
+    
+
 
     criarErro(campo, mensagem) { 
         const divErro = document.createElement('div');
