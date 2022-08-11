@@ -13,7 +13,11 @@
 
     handleSubmit(e) {
         e.preventDefault();
-        console.log('Formulario não enviado');
+        const camposValidos = this.checkInputs();
+    }
+
+    checkInputs() {
+        let valid = true;
     }
 
 }
