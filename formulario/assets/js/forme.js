@@ -15,7 +15,28 @@
     handleSubmit(e) {
         e.preventDefault();
         const camposValidos = this.checkInputs();
+        const senhaValidas = this.validaSenha();
     }
+
+    validaSenha() {
+        let = valid = true;
+        const senha = this.formulario.querySelector('.senha');
+        const repetirSenha = this.formulario.querySelector('.repetir-senha');
+
+        if ( senha.value !== repetirSenha.value) {
+            valid = false;
+            this.criarErro(senha, 'Senhas não conferem');
+            this.criarErro(repetirSenha, 'Senhas não conferem');
+        }
+
+        if(senha.value.length < 6 || senha.value.length > 12) {
+            valid = false;
+            this.criarErro(senha, 'Senha deve ter entre 6 e 12 caracteres');
+        }
+
+        return valid;
+    }
+
 
     checkInputs() {
         let valid = true;
@@ -41,6 +62,7 @@
                     }
 
         }
+        return valid;
     }
         validaUsuario(campo) {
             const usuario = campo.value;
