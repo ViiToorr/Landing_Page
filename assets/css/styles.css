@@ -425,4 +425,29 @@ p {
 /*----------------- Fim @Media -----------------------*/
 
 
+/*----------------- Maquina -----------------------*/
+.titulo-principal{
+    max-width: 480px;
+    text-align: justify;
+    margin: 60px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  
+}
+.titulo-principal:after{
+ content: '|';
+ margin-left: 5px;
+ opacity: 1;
+ animation: pisca .7s infinite;
+}
 
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+/*----------------- Maquina -----------------------*/
