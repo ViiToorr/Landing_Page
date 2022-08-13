@@ -206,10 +206,25 @@ p {
     justify-content: center;
 }
 .intro-content2 h2 {
+    text-align: center;
     font-size: 8.0rem;
-    text-transform: uppercase;
+    
     margin-bottom: 5rem;
     line-height: 1.2;
+    color: var(--cor-1-azul);
+}
+
+.intro-content2 a {
+    border-radius: 3rem;
+    color: var(--cor-1-azul);
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 2px 2px 4px var(--cor-5-verm);
+    height: 5rem;
+    
+}
+.intro-content2 a:hover {
+    box-shadow: 2px 2px 8px var(--cor-1-azul);
 }
 
 /*----------------- Fim Section 2 ---------------------*/
