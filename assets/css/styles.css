@@ -36,6 +36,7 @@ h1 {
 }
 h2 {
     font-size: 5.5rem;
+    color: var(--primary-color);
     
 }
 h3 {
@@ -59,10 +60,10 @@ p {
     
 }
 .main-bg {
-    background-image: url('../img/main.svg.svg');
+     background-image: url('../img/main.svg.svg'); 
     background-size: cover;
     background-position: center center;
-    color: var(--secondary-color);
+    color: var(--cor-2-branco);
 }
 .white-bg {
     background-color: var(--secondary-color);
@@ -157,24 +158,6 @@ p {
     flex-flow: column wrap;
     justify-content: center;
 }
-/* .intro-text-content h6 {
-
-} */
-
-/* .intro-text-content h5::after {
-    content: "|";
-    animation: pisca;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
-@keyframes pisca {
-     0%,100% {
-        opacity: 1;
-}
-50% {
-    opacity: 0;
-}
-} */
 
 .intro-text-content h2 {
     font-size: 8.0rem;
