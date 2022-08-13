@@ -3,6 +3,12 @@
     --secondary-color: #f5f5f5;
     --tertiary-color: #eeeeee;
     --gap: 3rem;
+
+    --cor-1-azul: #0b5071;
+    --cor-2-branco: #f7f4f6;
+    --cor-3-azulclaro: #51c4df;
+    --cor-4-cenza: #c5c1c3;
+    --cor-5-verm: #f14c65;
 }
 * {
     margin: 0;
@@ -172,7 +178,7 @@ p {
 
 .intro-text-content h2 {
     font-size: 8.0rem;
-    text-transform: uppercase;
+    ;
     margin-bottom: 5rem;
     line-height: 1.2;
    
@@ -427,10 +433,8 @@ p {
 
 /*----------------- Maquina -----------------------*/
 .titulo-principal{
-    max-width: 480px;
+    
     text-align: justify;
-    margin: 60px auto;
-    font-family: 'Roboto', sans-serif;
     color: #fff;
   
 }
