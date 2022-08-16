@@ -182,6 +182,7 @@ p {
     color: var(--cor-5-verm);
     border: 0.1rem solid var(--cor-5-verm);
     box-shadow: 0.01rem 0.02rem 0.8rem var(--cor-5-verm);
+    letter-spacing: 0.3rem;
 }
 .intro-text-content h2 {
     font-size: 8.0rem;
@@ -233,7 +234,7 @@ p {
 .intro-content2 a:hover {
     background-color: var(--cor-1-azul);
     color: var(--cor-2-branco);
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.2rem;
 }
 
 /*----------------- Fim Section 2 ---------------------*/
@@ -285,10 +286,26 @@ p {
     
 }
 .grid p {
-    border: 2px solid white;
-    padding: 5rem;
-    
+    background-color: var(--cor-5-verm);
+    margin-top: 3rem;
+    width: 41rem;
+    font-size: 3rem;
+    padding: 2rem;
+    transform:rotate(-50deg)  ;
 }
+.grid article {
+    border: 2px solid var(--cor-2-branco);
+    padding: 4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+}
+.grid article:hover {
+    transform: scale(1.1);
+}
+
+
 
 /*----------------- Fim Section 3 -------------------------*/
 
