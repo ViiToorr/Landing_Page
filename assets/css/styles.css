@@ -166,20 +166,24 @@ p {
 }
 .intro-text-content a {
     margin-bottom: 2rem;
-    box-shadow: 2px 2px 10px var(--cor-2-branco);
+    box-shadow: 0.01rem 0.02rem 0.4rem var(--cor-2-branco);
+    border: 0.1rem solid var(--cor-2-branco);
     padding: 1rem;
     font-size: 3.5rem;
     width: 25rem;
-    
+    font-weight: 600;
     text-align: center;
     color:var(--cor-2-branco);
-    border-radius: .5rem;
+    border-radius: 1.5rem;
     
 }
+
+    
+
 .intro-text-content a:hover {
     color: var(--cor-5-verm);
-    
-    box-shadow: 2px 2px 10px var(--cor-5-verm);
+    border: 0.1rem solid var(--cor-5-verm);
+    box-shadow: 0.01rem 0.02rem 0.8rem var(--cor-5-verm);
 }
 .intro-text-content h2 {
     font-size: 8.0rem;
@@ -221,16 +225,20 @@ p {
     color: var(--cor-1-azul);
     text-align: center;
     font-size: 3rem;
-    background-color: var(--cor-3-azulclaro);
-    box-shadow: 2px 2px 4px var(--cor-4-cinza);
-    height: 5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--cor-2-branco);
+    border: 0.1rem solid var(--cor-1-azul);
+    padding: 1rem;
+    box-shadow: 0.01rem 0.02rem 0.3rem var(--cor-1-azul);
+   
     
 }
 .intro-content2 a:hover {
-    box-shadow: 2px 2px 8px var(--cor-1-azul);
-    color: var(--cor-5-verm);
-    
+    background-color: var(--cor-1-azul);
+    color: var(--cor-2-branco);
 }
+
 
 /*----------------- Fim Section 2 ---------------------*/
 
