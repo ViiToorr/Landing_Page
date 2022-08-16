@@ -303,6 +303,7 @@ p {
 }
 .grid article:hover {
     transform: scale(1.1);
+    letter-spacing: 0.5rem;
 }
 
 
