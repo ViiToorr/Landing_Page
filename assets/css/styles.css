@@ -178,8 +178,6 @@ p {
     
 }
 
-    
-
 .intro-text-content a:hover {
     color: var(--cor-5-verm);
     border: 0.1rem solid var(--cor-5-verm);
@@ -218,8 +216,6 @@ p {
     flex-flow: column nowrap;
     justify-content: center;
 }
-
-
 .intro-content2 a {
     border-radius: 3rem;
     color: var(--cor-1-azul);
@@ -237,8 +233,8 @@ p {
 .intro-content2 a:hover {
     background-color: var(--cor-1-azul);
     color: var(--cor-2-branco);
+    letter-spacing: 0.4rem;
 }
-
 
 /*----------------- Fim Section 2 ---------------------*/
 
@@ -263,16 +259,18 @@ p {
 }
 
 .grid {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: var(--gap);
     counter-reset: grid-counter;
 }
 .grid h3 {
+    
     font-size: 3rem;
     position: relative;
     padding-left: 7rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     
 }
 .grid h3::before {
@@ -284,6 +282,12 @@ p {
     top: -5rem;
     left: 2rem;
     transform: rotate(5deg);
+    
+}
+.grid p {
+    border: 2px solid white;
+    padding: 5rem;
+    
 }
 
 /*----------------- Fim Section 3 -------------------------*/
