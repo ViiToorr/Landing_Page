@@ -334,7 +334,6 @@ p {
 }
 .card-back {
     background-color: red;
-    font-size: 1em;
     align-items: center;
     justify-content: center;
     z-index: 0;
