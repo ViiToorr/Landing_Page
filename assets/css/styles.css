@@ -296,7 +296,7 @@ p {
 
 .gallery {
     font-size: 8.0rem;
-    text-transform: uppercase;
+    text-transform: none;
     color: var(--cor-1-azul);
     line-height: 1.2;
 }
