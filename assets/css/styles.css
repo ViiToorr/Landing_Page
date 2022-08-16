@@ -197,6 +197,15 @@ p {
 
 
 /*----------------- Section 2 -------------------------*/
+.intro-content2 h2 {
+    text-align: center;
+    font-size: 8.0rem;
+    border-bottom: 1px solid var(--cor-5-verm);
+    margin-bottom: 5rem;
+    line-height: 1.2;
+    color: var(--cor-1-azul);
+    cursor: pointer;
+}
 
 .intro-content2 {
     max-width: 64rem;
@@ -205,14 +214,7 @@ p {
     flex-flow: column nowrap;
     justify-content: center;
 }
-.intro-content2 h2 {
-    text-align: center;
-    font-size: 8.0rem;
-    
-    margin-bottom: 5rem;
-    line-height: 1.2;
-    color: var(--cor-1-azul);
-}
+
 
 .intro-content2 a {
     border-radius: 3rem;
@@ -220,7 +222,7 @@ p {
     text-align: center;
     font-size: 3rem;
     background-color: var(--cor-3-azulclaro);
-    box-shadow: 2px 2px 4px var(--cor-5-verm);
+    box-shadow: 2px 2px 4px var(--cor-4-cinza);
     height: 5rem;
     
 }
@@ -284,7 +286,7 @@ p {
     min-height: 25%;
 }
 .container {
-    border: 1px solid black;
+    gap: var(--gap);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -295,10 +297,8 @@ p {
 } 
 
 .gallery {
-    font-size: 8.0rem;
-    text-transform: none;
     color: var(--cor-1-azul);
-    line-height: 1.2;
+   
 }
 
 
@@ -306,8 +306,9 @@ p {
     width : 25%;
     height: 25%;
     position: relative;
-    border: 2px solid black;
+    box-shadow: 1px 1px 10px var(--cor-1-azul);
     margin: .5rem;
+    border-radius: 10px;
 }
 .face{
     width: 100%;
@@ -321,11 +322,11 @@ p {
     border-radius: 10px;
     transition: 700ms;
     display: flex;
-    color: #eef1f7;
+    color: var(--cor-4-cinza);
 
 }
 .card-front{
-    background-color: var(--cor-4-cinza);
+    background-color: var(--cor-2-branco);
     font-size: 5em;
     align-items: center;
     justify-content: center;
@@ -333,7 +334,7 @@ p {
 
 }
 .card-back {
-    background-color: red;
+    background-color: var(--cor-1-azul);
     align-items: center;
     justify-content: center;
     z-index: 0;
@@ -381,7 +382,7 @@ p {
 /*-----------------  Fim Section 4 -------------------------*/
 
 /*-----------------  Section 5 -------------------------*/
-.contact-form {
+/* .contact-form {
     grid-column: span 2;
 }
 .contact-form fieldset {
@@ -435,7 +436,7 @@ p {
 .form-group button:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-}
+} */
 
 /*----------------- Fim Section 5 -----------------------*/
 
@@ -462,9 +463,9 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: var(--primary-color);
+    color: var(--cor-1-azul);
     transform: rotate(-90deg);
-    border: 0.1rem solid var(--primary-color);
+    border: 0.1rem solid var(--cor-1-azul);
    
 }
 
