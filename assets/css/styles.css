@@ -499,7 +499,10 @@ p {
     border: 0.1rem solid var(--cor-1-azul);
    
 }
-
+.footer img {
+    width: 5rem;
+    height: 5rem;
+}
 /*----------------- Fim Footer -----------------------*/
 
 /*----------------- @Media  -----------------------*/
