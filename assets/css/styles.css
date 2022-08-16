@@ -279,7 +279,76 @@ p {
 /*----------------- Fim Section 3 -------------------------*/
 
 /*-----------------  Section 4 -------------------------*/
- .gallery-grid {
+.container {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    max-width: 100%;
+} 
+
+
+
+.card-container{
+    width : 300px;
+    height: 200px;
+    position: relative;
+    border: 1px solid black;
+}
+.face{
+    width: 100%;
+    height: 100%;
+    perspective: 700px;
+}
+.card-front, .card-back{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 10px;
+    transition: 700ms;
+    display: flex;
+    color: #eef1f7;
+
+}
+.card-front{
+    background-color: var(--cor-4-cinza);
+    font-size: 5em;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+}
+.card-back {
+    background-color: red;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    flex-direction: column;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+.card-back h2 {
+    width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+
+}
+.face:hover .card-front {
+    transform: rotateY(180deg);
+    z-index: 0;
+}
+.face:hover .card-back {
+    transform: rotateY(0deg);
+    z-index: 0;
+}
+
+
+
+/* .gallery-grid {
     width: 100%;
     max-width: 36rem;
     max-height: 36rem;
@@ -290,7 +359,7 @@ p {
     }
     .gallery-grid img:hover {
         transform: translate(-3%, -3%) scale(1.2) rotate(5deg);
-    }
+    } */
 
 /*-----------------  Fim Section 4 -------------------------*/
 
