@@ -279,6 +279,10 @@ p {
 /*----------------- Fim Section 3 -------------------------*/
 
 /*-----------------  Section 4 -------------------------*/
+.card-front img {
+    max-width: 40%;
+    min-height: 25%;
+}
 .container {
     border: 1px solid black;
     display: flex;
