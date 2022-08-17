@@ -596,7 +596,22 @@ p {
     
 
  @media (max-width: 460px) {
-     
+    .card-container {
+        width: 300px;
+        height: 250px;
+        margin: 0 auto;
+        display: ;
+        
+
+        
+    } 
+    .container{
+        display: grid;
+        grid-template-columns: 1fr ;
+
+       
+    }
+
     .intro-text-content h2 {
         font-size: 6rem;
         
