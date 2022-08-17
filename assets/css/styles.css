@@ -573,8 +573,7 @@ p {
     .intro-text-content h2 {
         font-size: 7rem;
     } 
-   
-   
+
     .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -591,7 +590,6 @@ p {
     margin: 0 auto;
    }
 }
-    
 
  @media (max-width: 460px) {
     .card-container {
@@ -699,3 +697,17 @@ p {
 }
 
 /*----------------- Maquina -----------------------*/
+
+
+[data-anime] {
+    opacity: 0;
+    transition: .5s;
+}
+
+[data-anime="left"] {
+   
+}
+
+[data-anime="right"] {
+   
+}
