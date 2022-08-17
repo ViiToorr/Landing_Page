@@ -581,9 +581,7 @@ p {
     
     
    }
-.grid-description{
-    padding: 0;
-}
+
 .grid-one-content h2 {
     font-size: 5rem;
    }
@@ -601,9 +599,6 @@ p {
         height: 250px;
         margin: 0 auto;
        
-        
-
-        
     } 
 
     .container{
@@ -648,7 +643,7 @@ p {
         top: 1.5rem;
         right: 1.5rem;
         background: var(--primary-color);
-        color: var(--secondary-color);
+        color: var(--cor-5-verm);
         font-size: 4rem;
         line-height: 4rem;
         width: 4rem;
