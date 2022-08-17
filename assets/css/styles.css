@@ -186,8 +186,8 @@ p {
 }
 .intro-text-content h2 {
     font-size: 8.0rem;
-    
-    margin-bottom: 1rem;
+    height: 20rem;
+    margin-bottom: 2rem;
     line-height: 1.2;
    
 }
@@ -615,7 +615,7 @@ p {
 /*----------------- Maquina -----------------------*/
 .titulo-principal{
     
-    text-align: justify;
+    text-align: start;
     color: #fff;
   
 }
