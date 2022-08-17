@@ -600,7 +600,6 @@ p {
         margin: 0 auto;
        
     } 
-
     .container{
         display: grid;
         grid-template-columns: 1fr ;
@@ -618,7 +617,9 @@ p {
         padding-bottom: 6rem;
     } 
     
-    
+    .intro-content2 h2 {
+        margin-bottom: 1rem;
+    }
     
     .menu {
         bottom: 0;
