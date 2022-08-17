@@ -543,6 +543,13 @@ p {
 /*----------------- Fim Footer -----------------------*/
 
 /*----------------- @Media  -----------------------*/
+@media(max-width:1045px){
+    .intro-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 @media (max-width: 800px) {
     .intro-content {
         grid-template-columns: 1fr;
@@ -561,6 +568,16 @@ p {
     }
 }
  @media (max-width: 460px) {
+     
+    .intro-text-content h2 {
+        font-size: 6rem;
+    }
+    .intro-text-content h5{
+        font-size: 3rem;
+    } 
+    
+    
+    
     .menu {
         bottom: 0;
         text-align: center;
