@@ -600,6 +600,9 @@ p {
         margin: 0 auto;
        
     } 
+    #intro2 p {
+        margin-bottom: 0;
+    }
     .container{
         display: grid;
         grid-template-columns: 1fr ;
